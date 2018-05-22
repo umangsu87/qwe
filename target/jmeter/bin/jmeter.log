@@ -1,0 +1,194 @@
+2018-05-11 14:16:18,008 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-05-11 14:16:18,032 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-05-11 14:16:18,033 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-05-11 14:16:18,041 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-05-11 14:16:18,041 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-05-11 14:16:18,042 INFO o.a.j.JMeter: java.version=1.8.0_162
+2018-05-11 14:16:18,042 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-05-11 14:16:18,042 INFO o.a.j.JMeter: os.name=Windows 10
+2018-05-11 14:16:18,042 INFO o.a.j.JMeter: os.arch=amd64
+2018-05-11 14:16:18,042 INFO o.a.j.JMeter: os.version=10.0
+2018-05-11 14:16:18,042 INFO o.a.j.JMeter: file.encoding=Cp1252
+2018-05-11 14:16:18,042 INFO o.a.j.JMeter: Max memory     =3793747968
+2018-05-11 14:16:18,042 INFO o.a.j.JMeter: Available Processors =4
+2018-05-11 14:16:18,046 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-05-11 14:16:18,046 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-05-11 14:16:18,046 INFO o.a.j.JMeter: JMeterHome=E:\Perf231-AS400\JMeterRepo\as400_opco_sus_perf\target\jmeter
+2018-05-11 14:16:18,046 INFO o.a.j.JMeter: user.dir  =E:\Perf231-AS400\JMeterRepo\as400_opco_sus_perf\target\jmeter\bin
+2018-05-11 14:16:18,046 INFO o.a.j.JMeter: PWD       =E:\Perf231-AS400\JMeterRepo\as400_opco_sus_perf\target\jmeter\bin
+2018-05-11 14:16:18,445 INFO o.a.j.JMeter: IP: 10.97.50.102 Name: DESKTOP-C8KGGNB FullName: 10.97.50.102
+2018-05-11 14:16:18,796 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-05-11 14:16:18,826 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.sun.java.swing.plaf.windows.WindowsLookAndFeel [Darcula]
+2018-05-11 14:16:18,827 INFO o.a.j.JMeter: Setting LAF to: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2018-05-11 14:16:18,855 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-05-11 14:16:19,843 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-05-11 14:16:19,843 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-05-11 14:16:21,927 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-11 14:16:21,927 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-11 14:16:21,927 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-11 14:16:21,927 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-11 14:16:21,927 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-05-11 14:16:21,927 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-05-11 14:16:22,378 WARN o.a.j.g.u.MenuFactory: Configuration error, probably corrupt or missing third party library(jar)? Could not create class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui.
+java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[jmeter-plugins-standard-1.4.0.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[jmeter-plugins-standard-1.4.0.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_162]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_162]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_162]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:155) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core-4.0.jar:4.0 r1823414]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_162]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_162]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_162]
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	... 29 more
+2018-05-11 14:16:23,430 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-05-11 14:16:23,431 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\Perf231-AS400\JMeterRepo\as400_opco_sus_perf\target\jmeter\bin\proxyserver.jks
+2018-05-11 14:16:23,577 INFO o.a.j.s.FileServer: Default base='E:\Perf231-AS400\JMeterRepo\as400_opco_sus_perf\target\jmeter\bin'
+2018-05-11 14:16:24,180 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.ReporterTool
+java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.access$100(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:193) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:107) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:96) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:84) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-0.19.jar:?]
+Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	... 16 more
+2018-05-11 14:16:24,180 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.FilterResultsTool
+java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.access$100(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:193) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:107) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:96) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:84) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-0.19.jar:?]
+Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	... 16 more
+2018-05-11 14:16:24,185 WARN o.j.r.Plugin: Unable to load class: kg.apc.cmdtools.TestPlanCheckTool
+java.lang.NoClassDefFoundError: kg/apc/cmdtools/AbstractCMDTool
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.defineClass(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.access$100(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:193) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:107) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:96) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:84) [jmeter-plugins-manager-0.19.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-0.19.jar:?]
+Caused by: java.lang.ClassNotFoundException: kg.apc.cmdtools.AbstractCMDTool
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_162]
+	... 16 more
+2018-05-11 14:16:24,331 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-05-11 14:16:24,331 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-05-11 14:16:24,332 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-05-11 14:16:24,332 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-05-11 14:16:24,935 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=1.4.0, jpgc-graphs-additional=1.4.0, jpgc-autostop=0.1, jpgc-sense=1.4.0, jpgc-graphs-composite=1.4.0, jpgc-csl=1.4.0, jpgc-functions=2.0, jpgc-casutg=2.5, jpgc-dbmon=1.4.0, jpgc-graphs-dist=1.4.0, jpgc-dummy=1.4.0, jpgc-ffw=1.4.0, jpgc-ggl=1.4.0, jpgc-httpraw=1.4.0, jpgc-sts=1.4.0, jpgc-fifo=1.4.0, jpgc-jmxmon=1.4.0, jpgc-graphs-vs=1.4.0, jpgc-lockfile=1.4.0, jpgc-mergeresults=1.4.0, jpgc-pde=1.4.0, bzm-parallel=0.4, jpgc-prmctl=1.4.0, jpgc-perfmon=2.1, jpgc-plugins-manager=0.19, jpgc-webdriver=2.3, jpgc-synthesis=1.4.0, jpgc-tst=1.4.0, jpgc-udp=1.4.0, jpgc-csvars=0.1, jpgc-wsc=1.4.0, jpgc-xml=1.4.0, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0, jpgc-standard=2.0]
+2018-05-11 14:16:24,938 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-graphs-basic, jpgc-graphs-additional, jpgc-sense, jpgc-graphs-composite, jpgc-functions, jpgc-graphs-dist, jpgc-ffw, jpgc-ggl, jpgc-sts, jpgc-graphs-vs, jpgc-mergeresults, bzm-parallel, jpgc-plugins-manager, jpgc-synthesis, jpgc-tst]
+2018-05-11 14:16:29,121 INFO o.a.j.g.a.Load: Loading file: C:\Users\Lusitha\Desktop\AS400JAR\Test.jmx
+2018-05-11 14:16:29,122 INFO o.a.j.s.FileServer: Set new base='C:\Users\Lusitha\Desktop\AS400JAR'
+2018-05-11 14:16:29,255 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-05-11 14:16:29,258 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-05-11 14:16:29,259 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-05-11 14:16:29,261 INFO o.a.j.s.SaveService: Loading file: C:\Users\Lusitha\Desktop\AS400JAR\Test.jmx
+2018-05-11 14:16:29,820 INFO o.a.j.s.FileServer: Set new base='C:\Users\Lusitha\Desktop\AS400JAR'
+2018-05-11 14:17:49,114 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 10.168.139.126
+2018-05-11 14:17:49,115 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:17:51,959 INFO o.a.j.e.DistributedRunner: Starting remote engines
+2018-05-11 14:17:51,959 INFO o.a.j.e.DistributedRunner: Starting the test @ Fri May 11 14:17:51 IST 2018 (1526028471959)
+2018-05-11 14:17:51,959 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2018-05-11 14:17:51,963 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:17:51,964 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:17:51,967 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-05-11 14:17:51,974 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2018-05-11 14:17:51,975 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2018-05-11 14:17:51,975 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:17:51,975 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:17:51,976 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:17:51,976 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:17:55,390 INFO o.a.j.e.ClientJMeterEngine: sent test to 10.168.139.126 basedir='.'
+2018-05-11 14:17:55,390 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2018-05-11 14:17:56,099 INFO o.a.j.e.ClientJMeterEngine: sent run command to 10.168.139.126
+2018-05-11 14:17:56,113 INFO o.a.j.e.DistributedRunner: Remote engines have been started
+2018-05-11 14:17:57,154 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, 10.168.139.126)
+2018-05-11 14:21:21,980 INFO o.a.j.e.DistributedRunner: Stopping remote engines
+2018-05-11 14:21:21,980 INFO o.a.j.e.ClientJMeterEngine: about to stop remote test on 10.168.139.126
+2018-05-11 14:21:23,227 INFO o.a.j.e.DistributedRunner: Remote engines have been stopped
+2018-05-11 14:21:25,884 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, 10.168.139.126)
+2018-05-11 14:22:19,997 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 10.168.139.126
+2018-05-11 14:22:19,998 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:22:22,790 INFO o.a.j.e.DistributedRunner: Starting remote engines
+2018-05-11 14:22:22,790 INFO o.a.j.e.DistributedRunner: Starting the test @ Fri May 11 14:22:22 IST 2018 (1526028742790)
+2018-05-11 14:22:22,791 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2018-05-11 14:22:22,791 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:22:22,791 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:22:22,791 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2018-05-11 14:22:22,791 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2018-05-11 14:22:22,792 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:22:22,792 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:22:22,792 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:22:22,792 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2018-05-11 14:22:26,331 INFO o.a.j.e.ClientJMeterEngine: sent test to 10.168.139.126 basedir='.'
+2018-05-11 14:22:26,332 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2018-05-11 14:22:27,030 INFO o.a.j.e.ClientJMeterEngine: sent run command to 10.168.139.126
+2018-05-11 14:22:27,030 INFO o.a.j.e.DistributedRunner: Remote engines have been started
+2018-05-11 14:22:27,993 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, 10.168.139.126)
+2018-05-11 14:30:51,119 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, 10.168.139.126)
